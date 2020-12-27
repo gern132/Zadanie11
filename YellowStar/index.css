@@ -1,0 +1,47 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stars {
+    fill:rgb(255, 255, 255);
+    stroke: black;
+    stroke-width: 20px;
+}
+.stars__item {
+    display: inline-block;
+}
+
+.stars:hover .stars__item svg {
+    fill: yellow;
+    transition: .4s;
+    stroke:yellow;
+}
+
+.stars__item:hover svg,
+.stars__item:hover ~ .stars__item svg{
+    fill:rgb(255, 255, 255);
+    transition: .4s;  
+}
+
+/* memchik */
+.memas {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.memas_dlya_Artema {
+    height: 400px;
+    width: 400px ;
+}
+/* animation */
+svg:hover {
+    transform:skew(15deg, -15deg) translateY(-15px);
+}
+svg {
+    transition: .4s;
+}
+
+
+
+
+
